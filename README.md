@@ -1,3 +1,21 @@
+export http_proxy=www-proxy-idc.in.oracle.com:80
+
+export HTTP_PROXY=www-proxy-idc.in.oracle.com:80
+
+export https_proxy=www-proxy-idc.in.oracle.com:80
+
+export HTTPS_PROXY=www-proxy-idc.in.oracle.com:80
+
+export no_proxy=localhost,127.0.0.1,.in.oracle.com,.us.oracle.com,.oraclecorp.com,.oracle-ocna.com,192.168.56.0/24,192.168.99.0/24
+
+export NO_PROXY=localhost,127.0.0.1,.in.oracle.com,.us.oracle.com,.oraclecorp.com,.oracle-ocna.com,192.168.56.0/24,192.168.99.0/24
+
+
+
+
+
+
+
 # SG_EmployeePortal
 I have created Employee Portal UI code using angular2 and backend srvice using spring boot.
 UI has registration form which can be filled and after submitting submit button rest service is called and json response is returned from service which i have displayed on UI.
